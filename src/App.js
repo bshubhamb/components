@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import Menu from './components/menu/Menu';
 import GridClicking from './components/grid/Grid'
+import Loading from './components/loading/Loading';
 
 function App() {
   console.log('alfjnadskjfnasdkf');
@@ -11,6 +12,8 @@ function App() {
     <div className="App">
       {/* <Menu options={items} initialSelection={items[1]}/> */}
       {/* <GridClicking data={data}/> */}
+      <Loading />
+      <Loading type={1}/> 
     </div>
   );
 }
