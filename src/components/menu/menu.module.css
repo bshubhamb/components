@@ -1,0 +1,58 @@
+.menuContainer{
+    width: 10rem;
+}
+
+.selectedItem{
+    text-align: center;
+    border: 1px solid gray;
+    overflow: hidden;
+}
+
+.menuItemsContainer{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 10rem;
+    overflow: hidden;
+    /* background-color: red; */
+}
+
+.menuItem{
+    margin: 2px;
+    background-color: red;
+    display: flex;
+    justify-content:space-between;
+    padding: 0.5rem 1rem;
+    overflow: hidden;
+}
+
+.menuItem{
+    
+}
+
+.selectionIndicatior{
+    position: relative;
+    right: 0%;
+}
+
+.menuText{
+    display: flex;
+}
+
+.slide{
+    animation: slide 5s linear infinite;
+    -webkit-animation: slide 5s linear infinite;
+    white-space: nowrap;
+}
+
+
+@keyframes slide {
+    0% { transform: translate(100%,0); }
+    100% { transform: translate(-100%, 0); }
+}
+
+
+@-webkit-keyframes slide {
+    0% { transform: translate(100,0); }
+    100% { transform: translate(-100%, 0); }
+}
