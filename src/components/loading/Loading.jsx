@@ -16,6 +16,15 @@ function Loading({type=0}) {
             {type == 1 && <div className={classes.dots1}>
                 <div className={classes.dot1}></div>
                 </div>}
+
+            {type == 2 && <div className={classes.circleContainer}>
+                <div className={classes.circle}></div>
+                <div className={classes.circle}></div>
+                <div className={classes.circle}></div>
+                <div className={classes.circle}></div>
+
+
+                </div>}
         </div>
      );
 }

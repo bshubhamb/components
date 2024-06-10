@@ -13,7 +13,9 @@ function App() {
       {/* <Menu options={items} initialSelection={items[1]}/> */}
       {/* <GridClicking data={data}/> */}
       <Loading />
-      <Loading type={1}/> 
+      <Loading type={1}/>
+      <Loading type={2}/> 
+
     </div>
   );
 }
